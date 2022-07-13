@@ -1,0 +1,21 @@
+.botonera {
+	background-color: $mainColor;
+	padding: 5px 20px;
+display: flex;
+justify-content:space-between;
+align-items:center;
+ul{
+	display: flex;
+	li{
+	list-style	:none;
+	a{
+	font-family: $styleFonts;
+	font-size:$textMd;
+	text-decoration:none;
+	color:white;
+	
+	}
+	}
+
+}
+}

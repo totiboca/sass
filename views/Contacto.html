@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dinastia</title>
+      <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+   
+      <nav>
+            <a href="../index.html">
+      	   <img src="../img/logo.png" alt="Logo Dinastia">
+            </a>
+            <ul>
+                  <li>
+                        <a href="Productos.html">Productos</a>
+                  </li>
+                  <li>
+                        <a href="Formas de pago.html">Formas de pago</a>
+                  </li>
+                  <li>
+                        <a href="Nosotros.html">Nosotros</a>
+                  </li>
+                  <li>
+                        <a href="Contacto.html">Contacto</a>
+                  </li>
+            </ul>
+      </nav>
+      <header>
+            <h1>Contacto</h1>
+      </header>
+      <main id="contacto">
+      	<section>
+                 <form action="envio.php" >
+                  <fieldset>
+                        <legend>Info Personal</legend>
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" name="nombre" placeholder="Lucas Lopez">
+                  <br>
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" placeholder="mail@mail.com">
+                  </fieldset>
+                   <br>
+                   <label for="localidad">Localidad</label>
+                   <select name="" id="localidad">
+                         <option value="CABA">Ciudad de Bs As</option>
+                         <option value="interior">Interior del Pais</option>
+                         <option value="BsAs">Provincia de Bs As</option>
+                   </select>
+                   <br>
+                  <label for="recibir">Desea recibir promociones</label>
+                  <input type="checkbox" id="recibir" name="recibir">
+                  <br>
+                  <label for="mensaje">Deje su mensaje</label>
+                  <br>
+                  <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                  <br>
+                  <input type="reset" value="Limpiar datos" >
+                  <input type="submit" value="Enviar">
+                 </form>  
+            </section>        
+      </main>
+       <footer class="controlFooter">
+            <h2>Seguinos en nuestras redes</h2>
+            <a href="https://facebook.com" target="_blank">
+                  <img src="../img/facebook.png" alt="Seguinos en facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+            <img src="../img/twitter.png" alt="Seguinos en twitter">
+            </a>
+      </footer>
+</body>
+</html>
